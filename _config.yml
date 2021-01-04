@@ -94,22 +94,22 @@ analytics:
 # Site Author
 author:
   name             : "高鑫治"
-  avatar           : "/assets/images/me.jpg"
+  avatar           : "/assets/images/meme.jpg"
   bio              : "Record my own learning journey."
   location         : "Da Lian & Heng shui"
   email            : "dut_gaoxinzhi@qq.com"
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+      icon: "fas fa-fw fa-envelope"
       url: "dut_gaoxinzhi@qq.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://gaoxinzhi.github.io"
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+      icon: "fab fa-fw fa-twitter"
       url: "https://twitter.com/MRGao95726397"
     - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
+      icon: "fab fa-fw fa-facebook"
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -122,10 +122,10 @@ author:
 footer:
   links:
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+      icon: "fab fa-fw fa-twitter"
       url: "https://twitter.com/MRGao95726397"
     - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
+      icon: "fab fa-fw fa-facebook"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"

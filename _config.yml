@@ -101,7 +101,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "dut_gaoxinzhi@qq.com"
+      # url: "dut_gaoxinzhi@qq.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://gaoxinzhi.github.io"

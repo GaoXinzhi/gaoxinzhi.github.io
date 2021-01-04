@@ -97,11 +97,11 @@ author:
   avatar           : "/assets/images/meme.jpg"
   bio              : "Record my own learning journey."
   location         : "Da Lian & Heng shui"
-  email            : "dut_gaoxinzhi@qq.com"
+  email            : # "dut_gaoxinzhi@qq.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      # url: "dut_gaoxinzhi@qq.com"
+      url: "dut_gaoxinzhi@qq.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://gaoxinzhi.github.io"

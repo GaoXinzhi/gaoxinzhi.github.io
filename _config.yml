@@ -24,13 +24,13 @@ description              : "Record my own learning journey."
 url                      : "https://gaoxinzhi.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "Gaoxinzhi/gaoxinzhi.github.io"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/assets/images/profile.jpg"
 logo                     : "/assets/images/profile.jpg"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "awesome"
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -41,8 +41,8 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
+    theme                : "github-light" # "github-light" (default), "github-dark"
+    issue_term           : "pathname" # "pathname" (default)
   staticman:
     branch               : # "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
@@ -280,16 +280,6 @@ defaults:
       share: true
       related: true
       show_date: true
-      teaser: "/assets/images/profile.jpg"
-      repository: "GaoXinzhi/gaoxinzhi.github.io"
-      
-      comments:
-        provider: "utterances"
-        utterances:
-          theme: "github-light" # "github-dark"
-          issue_term: "pathname"  
-
-
       header:
         overlay_image: "/assets/images/backgoround.jpg"
         caption: "Photo credit: [**Unsplash**](https://unsplash.com)"

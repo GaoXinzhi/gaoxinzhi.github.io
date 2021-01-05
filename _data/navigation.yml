@@ -9,6 +9,6 @@ main:
   - title: "Pages"
     url: /page-archive/
   - title: "About"
-    url: "permalink: /about/"
+    url: "permalink:/about/"
   - title: "Contact"
-    url: "permalink: /contact/"
+    url: "permalink:/contact/"

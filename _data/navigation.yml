@@ -1,14 +1,14 @@
 # main links
 main:
   - title: "Home"
-    url: "https://gaoxinzhi.github.io/"
+    url: "permalink: /"
   - title: "Categories"
     url: /categories/
   - title: "Tags"
     url: /tags/
   - title: "Pages"
     url: /page-archive/
-  - title: "Collections"
-    url: /collection-archive/
   - title: "About"
-    url: https://www.baidu.com
+    url: "permalink: /about/"
+    - title: "Contact"
+    url: "permalink: /contact/"

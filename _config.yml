@@ -311,5 +311,5 @@ defaults:
 
 
 footer_scripts:
-  - assets/js/girl.js
+  - assets/js/live2d-widget/autoload.js
 

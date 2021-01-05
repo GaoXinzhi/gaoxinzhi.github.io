@@ -276,12 +276,16 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
       show_date: true
       teaser: "/assets/images/profile.jpg"
-
+      comments:
+        provider: "utterances"
+        utterances:
+          theme: "github-light" # "github-dark"
+          issue_term: "pathname"
       header:
         overlay_image: "/assets/images/backgoround.jpg"
         caption: "Photo credit: [**Unsplash**](https://unsplash.com)"

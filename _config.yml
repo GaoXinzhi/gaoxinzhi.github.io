@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dirt" #"default"  "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" #"default"  "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "zh-CN" #"en-US"
@@ -283,7 +283,7 @@ defaults:
 
 
       header:
-        overlay_image: /assets/images/background.jpg
+        overlay_image: "/assets/images/backgoround.jpg"
         caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
         actions:
           - label: "More Info"
@@ -303,7 +303,7 @@ defaults:
 
 
       header:
-        overlay_image: /assets/images/background.jpg
+        overlay_image: "/assets/images/backgoround.jpg"
         caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
         actions:
           - label: "More Info"

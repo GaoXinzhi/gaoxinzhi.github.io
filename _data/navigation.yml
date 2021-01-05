@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Home"
-    url: "permalink: /"
+    url: "/"
   - title: "Categories"
     url: /categories/
   - title: "Tags"
@@ -9,6 +9,6 @@ main:
   - title: "Pages"
     url: /page-archive/
   - title: "About"
-    url: "../_pages/about.md"
+    url: "/about/"
   - title: "Contact"
-    url: "../_pages/contact.md"
+    url: "/contact/"

@@ -280,14 +280,10 @@ defaults:
       share: true
       related: true
       show_date: true
-      teaser: /assets/images/profile.jpg
+      teaser: "/assets/images/profile.jpg"
 
-      repository: GaoXinzhi/gaoxinzhi.github.io
-      comments:
-        provider: "utterances"
-        utterances:
-          theme: "github-light" # "github-dark"
-          issue_term: "pathname"
+      repository: "GaoXinzhi/gaoxinzhi.github.io"
+      
 
 
       header:
@@ -317,5 +313,9 @@ defaults:
         actions:
           - label: "More Info"
             url: "https://unsplash.com" 
-    
+  comments:
+    provider: "utterances"
+    utterances:
+      theme: "github-light" # "github-dark"
+      issue_term: "pathname"  
 

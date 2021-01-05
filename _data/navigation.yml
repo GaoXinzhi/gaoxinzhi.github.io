@@ -10,5 +10,5 @@ main:
     url: /page-archive/
   - title: "About"
     url: "permalink: /about/"
-    - title: "Contact"
+  - title: "Contact"
     url: "permalink: /contact/"

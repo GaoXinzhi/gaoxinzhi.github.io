@@ -280,18 +280,24 @@ defaults:
       share: true
       related: true
       show_date: true
-      teaser: "/assets/images/profile.jpg"
+      teaser: /assets/images/profile.jpg
+
+      repository: GaoXinzhi/gaoxinzhi.github.io
       comments:
         provider: "utterances"
         utterances:
           theme: "github-light" # "github-dark"
           issue_term: "pathname"
+
+
       header:
         overlay_image: "/assets/images/backgoround.jpg"
         caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
         actions:
           - label: "More Info"
             url: "https://unsplash.com"
+
+
   # _pages
   - scope:
       path: "_pages"

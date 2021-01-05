@@ -301,7 +301,6 @@ defaults:
       related: true
       show_date: true
 
-
       header:
         overlay_image: "/assets/images/backgoround.jpg"
         caption: "Photo credit: [**Unsplash**](https://unsplash.com)"

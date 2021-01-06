@@ -24,7 +24,7 @@ description              : "Record my own learning journey."
 url                      : "https://gaoxinzhi.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "Gaoxinzhi/gaoxinzhi.github.io"
-teaser                   : /assets/images/profile.jpg
+teaser                   : /assets/images/teaser.jpg
 logo                     : "/assets/images/profile.jpg"
 masthead_title           : "Blog"
 breadcrumbs              : true # true, false (default)
@@ -52,9 +52,9 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   
-search                   : true # true, false (default)
-search_full_content      : true # true, false (default)
-search_provider          : lunr # lunr (default), algolia, google
+search                   : false # true, false (default)
+search_full_content      : # true, false (default)
+search_provider          : # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
@@ -281,12 +281,13 @@ defaults:
       share: true
       related: true
       show_date: true
-      header:
-        overlay_image: "/assets/images/backgoround.jpg"
-        caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-        actions:
-          - label: "More Info"
-            url: "https://unsplash.com"
+
+      # header:
+      #   overlay_image: "/assets/images/backgoround.jpg"
+      #   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+      #   actions:
+      #     - label: "More Info"
+      #       url: "https://unsplash.com"
 
 
   # _pages
@@ -296,18 +297,14 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: # true
       share: true
-      related: true
-      show_date: true
 
-      header:
-        overlay_image: "/assets/images/backgoround.jpg"
-        caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-        actions:
-          - label: "More Info"
-            url: "https://unsplash.com" 
+      # header:
+      #   overlay_image: "/assets/images/backgoround.jpg"
+      #   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+      #   actions:
+      #     - label: "More Info"
+      #       url: "https://unsplash.com" 
   
 
 

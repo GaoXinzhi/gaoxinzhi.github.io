@@ -2,12 +2,10 @@
 main:
   - title: "Home"
     url: "/"
-  # - title: "Categories"
-  #   url: /categories/
-  # - title: "Tags"
-  #   url: /tags/
-  # - title: "Pages"
-  #   url: /page-archive/
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
   - title: "About"
     url: "/about/"
   - title: "Contact"

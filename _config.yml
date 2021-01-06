@@ -52,7 +52,7 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   
-search                   : false # true, false (default)
+search                   : # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
@@ -308,6 +308,6 @@ defaults:
   
 
 
-footer_scripts:
-  - assets/js/live2d-widget/autoload.js
+# footer_scripts:
+#   - assets/js/live2d-widget/autoload.js
 

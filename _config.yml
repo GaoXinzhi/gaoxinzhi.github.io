@@ -267,9 +267,15 @@ compress_html:
     envs: development
 
 
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+
+
 # Defaults
 defaults:
-  # _posts
+  # _posts 设置文章的默认布局以及其他的选项
   - scope:
       path: "_posts"
       type: posts
@@ -282,30 +288,22 @@ defaults:
       related: true
       show_date: true
 
-      # header:
-      #   overlay_image: "/assets/images/backgoround.jpg"
-      #   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-      #   actions:
-      #     - label: "More Info"
-      #       url: "https://unsplash.com"
-
-
-  # _pages
+  # _pages 页面默认设置
   - scope:
       path: "_pages"
       type: pages
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
 
-      # header:
-      #   overlay_image: "/assets/images/backgoround.jpg"
-      #   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-      #   actions:
-      #     - label: "More Info"
-      #       url: "https://unsplash.com" 
-  
+  - scope:
+    path: ""
+    type: portfolio
+  values:
+    layout: single
+    author_profile: false
+    share: true
 
 
 # footer_scripts:

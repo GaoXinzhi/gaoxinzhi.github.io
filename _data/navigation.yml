@@ -7,8 +7,9 @@ main:
   - title: "Tags"
     url: /tags/
   - title: "About"
+  - title: "Collections"
+    url: "/portfolio/"
     url: "/about/"
   - title: "Contact"
     url: "/contact/"
-  - title: "Portfolio"
-    url: "/portfolio/"
+  

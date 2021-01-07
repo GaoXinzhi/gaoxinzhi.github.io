@@ -32,8 +32,3 @@ header:
 # 如果想一个更骚点的导航栏，像教程里的那样，参见 https://mmistakes.github.io/minimal-mistakes/docs/layouts/#custom-sidebar-navigation-menu
 ---
 
-# 一级标题
-
-## 二级标题
-
-### 三级标题

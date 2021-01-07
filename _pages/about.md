@@ -2,6 +2,7 @@
 layout: single
 permalink: /about/
 show_date: true
+title: Hello
 header:
   overlay_image: ../assets/images/back.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"

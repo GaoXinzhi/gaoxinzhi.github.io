@@ -14,7 +14,6 @@ categories: classic # 调整文章的分类
 excerpt: "文章摘要 如果不指定的话会默认显示为文章第一段"
 classes: wide # 如果没有右面的导航栏的话将内容进行右填充
 teaser: ../assets/images/profile.jpg #预览时显示的图片
-layout: #默认是single
 # 开始的大图片以及上面的文字
 header:
     overlay_image: "../assets/images/backgoround.jpg"
@@ -36,7 +35,5 @@ header:
 # 一级标题
 
 ## 二级标题
-
----
 
 ### 三级标题

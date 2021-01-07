@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "高鑫治"
-  avatar           : "/assets/images/meme.jpg"
+  avatar           : # "/assets/images/meme.jpg"
   bio              : "Record my own learning journey."
   location         : "Da Lian & Heng shui"
   email            : #"dut_gaoxinzhi@qq.com"

@@ -1,11 +1,11 @@
 ---
-layout: single
-author_profile: true
-read_time: true
-comments: true
-share: true
-related: true
-show_date: true
+# layout: single
+# author_profile: true
+# read_time: true
+# comments: true
+# share: true
+# related: true
+# show_date: true
 toc: true
 toc_label: "标题标签"
 toc_icon: "file-alt " # 这里可以用awesomefont的图标进行替换 cog是齿轮

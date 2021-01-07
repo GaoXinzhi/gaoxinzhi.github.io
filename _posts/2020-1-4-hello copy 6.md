@@ -16,12 +16,12 @@ excerpt: "文章摘要 如果不指定的话会默认显示为文章第一段"
 teaser: ../assets/images/profile.jpg #预览时显示的图片
 # 开始的大图片以及上面的文字
 header:
-    overlay_image: "../assets/images/back.webp"
-    # overlay_filter: rgba(255, 0, 0, 0.5)  #可以调整一些图像的色彩等
-    caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-    actions:
-        - label: "More Info"
-        url: "https://unsplash.com" 
+  overlay_image: ../assets/images/back.webp
+  # overlay_filter: rgba(255, 0, 0, 0.5)  #可以调整一些图像的色彩等
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  actions:
+    - label: "More Info"
+      url: "https://unsplash.com"
 
 
 # sidebar: #这是作者栏那个位置的导航格如果想用这个东西先将上面的author_profile关掉

@@ -15,17 +15,19 @@ excerpt: "文章摘要 如果不指定的话会默认显示为文章第一段"
 # classes: wide # 如果没有右面的导航栏的话将内容进行右填充如果有右侧导航栏会很难看
 
 # 开始的大图片以及上面的文字
-header:
-  teaser: ../assets/images/profile.jpg #预览时显示的图片
-  overlay_image: ../assets/images/back.webp
-  # overlay_filter: rgba(255, 0, 0, 0.5)  #可以调整一些图像的色彩等
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-  actions:
-    - label: "More Info"
-      url: "https://unsplash.com"
 
+# header:
+#   teaser: ../assets/images/teaser.jpg #预览时显示的图片
+#   overlay_image: ../assets/images/back.webp
+#   # overlay_filter: rgba(255, 0, 0, 0.5)  #可以调整一些图像的色彩等
+#   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+#   actions:
+#     - label: "More Info"
+#       url: "https://unsplash.com"
 
-# sidebar: #这是作者栏那个位置的导航格如果想用这个东西先将上面的author_profile关掉
+#这是作者栏那个位置的导航格如果想用这个东西先将上面的author_profile关掉
+
+# sidebar: 
 #   - title: "Title"
 #     image: http://placehold.it/350x250
 #     image_alt: "image"
@@ -51,8 +53,3 @@ header:
 
 #### 四级标题2
 
-## 二级标题3
-
-### 三级标题3
-
-#### 四级标题3

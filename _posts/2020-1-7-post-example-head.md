@@ -13,9 +13,10 @@ tags: c++ python # 调整文章的标签
 categories: classic # 调整文章的分类
 excerpt: "文章摘要 如果不指定的话会默认显示为文章第一段"
 # classes: wide # 如果没有右面的导航栏的话将内容进行右填充如果有右侧导航栏会很难看
-teaser: ../assets/images/profile.jpg #预览时显示的图片
+
 # 开始的大图片以及上面的文字
 header:
+  teaser: ../assets/images/profile.jpg #预览时显示的图片
   overlay_image: ../assets/images/back.webp
   # overlay_filter: rgba(255, 0, 0, 0.5)  #可以调整一些图像的色彩等
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
@@ -36,6 +37,22 @@ header:
 
 # 一级标题
 
-## 二级标题
+全篇都要特别注意，前面的前缀必须保证严格的格式，绝对不能错，尤其是需要对齐
 
-### 三级标题
+## 二级标题1
+
+### 三级标题1
+
+#### 四级标题1
+
+## 二级标题2
+
+### 三级标题2
+
+#### 四级标题2
+
+## 二级标题3
+
+### 三级标题3
+
+#### 四级标题3

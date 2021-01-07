@@ -22,10 +22,10 @@ teaser: ../assets/images/profile.jpg #预览时显示的图片
 #     actions:
 #         - label: "More Info"
 #         url: "https://unsplash.com" 
-sidebar: 这是作者栏那个位置的导航格如果想用这个东西先将上面的author_profile关掉
+sidebar: #这是作者栏那个位置的导航格如果想用这个东西先将上面的author_profile关掉
   - title: "Title"
-    # image: http://placehold.it/350x250
-    # image_alt: "image"
+    image: http://placehold.it/350x250
+    image_alt: "image"
     text: "Some text here."
   - title: "Another Title"
     text: "More text here."

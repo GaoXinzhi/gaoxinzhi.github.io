@@ -1,2 +1,2 @@
-# gaoxinzhi.github.io
-:triangular_ruler: Jekyll theme for building a personal site, blog, project documentation, or portfolio.
+# github pages
+minimal-mistakes 搭建的一个github pages

@@ -1,4 +1,5 @@
 ---
+title: "Example"
 layout: single
 author_profile: true
 read_time: true

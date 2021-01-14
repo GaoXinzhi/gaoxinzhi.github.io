@@ -59,7 +59,43 @@ source devel/setup.bash
 执行完之后需要确保ros的包环境变量ROS_PACKAGE_PATH包含该路径。
 
 ```shell
-$ echo $ROS_PACKAGE_PATH
+echo $ROS_PACKAGE_PATH
 /home/用户名称/catkin_ws/src:/opt/ros/版本名称/share
 ```
+
+## ros文件工具
+
+ros提供的专用命令行工具
+
+### rospack
+
+用法:这条命令可以输出查找到特定包的路径，除了find之外其实还有很多命令可以自行尝试。
+
+```shell
+rospack [find] [package_name]
+```
+
+### roscd
+
+用法：这条命令可以切换到ros的特定包的目录下。但是这条命令只能切换到那些路径已经包含到ROS_PACKAGE_PATH环境变量中的软件。
+
+``` shell
+roscd [location/package_name]
+```
+
+下面的命令可以查看ros日志文件目录。
+
+```shell
+roscd log
+```
+
+### rosls
+
+用法：可以直接按软件包名执行ls命令。
+
+```shell
+rosls [locationname[/subdir]]
+```
+
+
 

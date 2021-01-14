@@ -46,8 +46,6 @@ excerpt: "文章摘要 如果不指定的话会默认显示为文章第一段"
 
 所有的[内容格式](https://mmistakes.github.io/minimal-mistakes/docs/helpers/)包括图片格式，嵌入视频，文本对齐，按钮等。
 
-[内部文档链接示例]: {% _posts/c++/2021-1-10-c++point.md %}
-
 ### 三级标题1
 
 #### 四级标题1

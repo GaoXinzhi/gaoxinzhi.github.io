@@ -45,7 +45,7 @@ excerpt: "文章摘要 如果不指定的话会默认显示为文章第一段"
 ## 二级标题1
 
 所有的[内容格式](https://mmistakes.github.io/minimal-mistakes/docs/helpers/)包括图片格式，嵌入视频，文本对齐，按钮等。
-[引用文章示例]({{ site.url }}/c++/2021-1-10-c++point.md)
+[引用文章示例]({{ site.url }}/c++/c++point)两点注意事项：不要文件扩展名，不要日期，只要文件名称。
 
 ### 三级标题1
 

@@ -106,6 +106,32 @@ rospack列出的关系都存储在package.xml文件中。
 
 自定义软件包详细见[官方文档](http://wiki.ros.org/cn/ROS/Tutorials/CreatingPackage)
 
+## 构建ros软件包
 
+构建之前要保证所有的依赖项都被正确安装。记住构建之前一定要source工作空间devel下的那个setup.bash文件
 
+### 使用catkin_make
 
+用法：（要在catkin工作空间里面）
+
+```shell
+如果源代码存储在src文件夹下可以执行：
+catkin_make
+catkin_make install # 可选
+如果源代码不在默认位置src文件夹下：
+catkin_make --source 源代码文件夹
+catkin_make install --source 源代码文件夹 # 可选
+```
+
+高级用法参见：[catkin高级用法](http://wiki.ros.org/catkin/commands/catkin_make)
+
+## 开始构建软件包
+
+在catkin_ws目录下执行catkin_make就可以构建名为beginner_tutorials的新的软件包了。
+
+**其实总体来讲创建一个新的catkin软件包的流程可以有以下几步：**
+
+* 创建catkin工作空间
+* source配置文件
+* 创建一个ros包
+* 软件包构建

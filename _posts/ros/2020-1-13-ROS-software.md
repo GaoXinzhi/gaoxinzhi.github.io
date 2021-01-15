@@ -54,3 +54,58 @@ my_package/
   CmakeLists.txt
   package.xml
 ```
+
+具体如何创建catkin工作空间可以参见[ros文件系统]]({{ site.url }}/ros/ROS-file-system)。 创建完的catkin工作空间里面可以用来创建ros包。
+
+## 创建catkin软件包
+
+使用catkin_create_pkg创建新的catkin软件包。
+首先切换到刚才创建的空白catkin工作空间中的源文件空间目录。
+
+```shell
+这是catkin工作空间的基本目录结构：
+workspace_folder/        -- WORKSPACE
+  src/                   -- SOURCE SPACE
+    CMakeLists.txt       -- 'Toplevel' CMake file, provided by catkin
+    package_1/
+      CMakeLists.txt     -- CMakeLists.txt file for package_1
+      package.xml        -- Package manifest for package_1
+    ...
+    package_n/
+      CMakeLists.txt     -- CMakeLists.txt file for package_n
+      package.xml        -- Package manifest for package_n
+```
+
+```shell
+cd ~/catkin_ws/src
+```
+ 
+ 使用catkin_create_pkg创建一个名为beginnner_tutorials的新软件包，这个软件包依赖于std_msg、roscpp和rospy:
+
+ ```shell
+ 基本用法:
+ catkin_create_pkg <package_name> [depend1] [depend2] [depend3]
+ 示例：
+catkin_create_pkg beginner_tutorials std_msgs rospy roscpp
+```
+
+上述命令的高级用法见[catkin/commands/catkin_create_pkg](http://wiki.ros.org/catkin/commands/catkin_create_pkg)
+
+## 软件包的依赖关系
+
+### 一级依赖和间接依赖
+
+软件包之间存在依赖关系，可以使用rospack查看依赖关系
+
+```shell
+rospack depends beginner_tutorials
+除了上面的rospack depends之外还有很多depend命令可以查阅官方文档
+```
+
+rospack列出的关系都存储在package.xml文件中。
+
+自定义软件包详细见[官方文档](http://wiki.ros.org/cn/ROS/Tutorials/CreatingPackage)
+
+
+
+

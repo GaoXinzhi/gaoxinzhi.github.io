@@ -18,7 +18,7 @@ excerpt: "ros文件系统中的一些概念和命令行工具"
 # 开始的大图片以及上面的文字
 
 header:
-  teaser: ../postimage/ros/ros.jpeg #预览时显示的图片
+  teaser: ../assets/postimage/ros/ros.jpeg #预览时显示的图片
 #   overlay_image: ../assets/images/back.webp
 #   # overlay_filter: rgba(255, 0, 0, 0.5)  #可以调整一些图像的色彩等
 #   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"

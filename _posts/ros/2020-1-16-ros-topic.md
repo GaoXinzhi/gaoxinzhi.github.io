@@ -60,8 +60,7 @@ rosrun rqt_graph rqt_graph
 查看帮助
 rostopic -h
 显示某个话题上发布数据
-rostopic echo 
-[topic]
+rostopic echo [topic]
 列出当前已被订阅和发布的所有话题
 rostopic list -v
 查看帮助

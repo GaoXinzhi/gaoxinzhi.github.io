@@ -95,4 +95,18 @@ launch文件举例如下：
 上面的launch文件启动的节点产生的计算图为：
 ![rqt_graph]({{site/url}}/assets/postimage/ros/roslaunch.png){: .align-center}
 
+## 创建ros消息和服务
 
+详细的ros消息和服务内容介绍还是看[官方文档](http://wiki.ros.org/cn/ROS/Tutorials/CreatingMsgAndSrv)吧。
+
+### rosmsg 和 rossrv
+
+除了下面这些还有很多例子，比如如何创建msg格式最好是去[官网](http://wiki.ros.org/cn/ROS/Tutorials/CreatingMsgAndSrv)上看看。
+
+```shell
+rosmsg show [message type] 显示msg格式
+```
+
+```shell
+rossrv show [service type]
+```
